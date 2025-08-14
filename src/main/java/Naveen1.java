@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class Naveen1 {
     public static void main(String[] args) {
-        //reverse Array
+        //reverse Array without using any extra space
         int[] arr = {1, 2, 3, 4, 5};
         int start = 0;
         int end = arr.length - 1;
