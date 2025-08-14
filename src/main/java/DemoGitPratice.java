@@ -1,13 +1,20 @@
 public class DemoGitPratice {
     public static void main(String[] args) {
+        // Extract digits
+        String input ="5n6t7h8a9n0";
+        StringBuilder output = new StringBuilder();
+        for (int i = 0; i < input.length(); i++) {
+            char currentChar = input.charAt(i);
+            if (Character.isDigit(currentChar)) {
+                output.append(currentChar);
+            }
+        }
+        System.out.println("Digits only: " + output.toString());
+
         // Reverse the string
         String str = "Naveen";
         String reversedStr = new StringBuilder(str).reverse().toString();
-
-        // Print the reversed string
         System.out.println("Reversed String: " + reversedStr);
-
-        // Print the original string
         System.out.println("Original String: " + str);
 
         // Different Types of String reverse
@@ -24,8 +31,5 @@ public class DemoGitPratice {
             System.out.print(charArray[i]);
         }
         System.out.println();
-
-        // Print the original string
-        System.out.println("Original String: " + str);
     }
 }
