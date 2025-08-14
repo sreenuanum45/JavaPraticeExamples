@@ -7,6 +7,7 @@ public class Palindrome {
         String s = "madam";
         System.out.println(new StringBuilder(s).reverse().toString().equals(s));
         System.out.println("palindrome:"+isPalindrome(s));
+        System.out.println(isValidPalindrome(s));
     }
     public static boolean isPalindrome(String s){
         int len=s.length();
@@ -32,6 +33,15 @@ public class Palindrome {
             }
             else{
                 index++;
+            }
+        }
+        return true;
+    }
+    public static boolean isValidPalindrome(String s){
+        int len=s.length();
+        for(int i=0;i<len;i++){
+            if(s.charAt(i)!=s.charAt(len-1-i)){
+                return false;
             }
         }
         return true;
