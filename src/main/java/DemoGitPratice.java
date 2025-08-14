@@ -1,7 +1,7 @@
 public class DemoGitPratice {
     public static void main(String[] args) {
-        // Extract digits
         String input ="5n6t7h8a9n0";
+        System.out.println("hello world");
         StringBuilder output = new StringBuilder();
         for (int i = 0; i < input.length(); i++) {
             char currentChar = input.charAt(i);
