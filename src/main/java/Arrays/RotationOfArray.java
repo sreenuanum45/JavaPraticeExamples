@@ -54,6 +54,17 @@ public class RotationOfArray {
             right--;
         }
     }
+    public static int [] rotateArray(int []a,int k){
+        k%=a.length;
+        for(int i=0;i<k;i++){
+            int last=a[a.length-1];
+            for(int j=a.length-1;j>0;j--){
+                a[j]=a[j-1];
+            }
+            a[0]=last;
+        }
+        return a;
+    }
 
     }
 

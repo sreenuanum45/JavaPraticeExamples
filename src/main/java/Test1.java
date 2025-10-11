@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 public class Test1 {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         int b[]={10,20,30,40,50};
         boolean paliondrome=false ;
         int even = 0;
