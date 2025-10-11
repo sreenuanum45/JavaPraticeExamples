@@ -1,7 +1,9 @@
 package Arrays;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class ArrayRemoveDuplicate {
     public static void main(String[] args) {
@@ -20,5 +22,16 @@ public class ArrayRemoveDuplicate {
             }
         }
         System.out.println(unique.toString());
+        removeDuplicates(arr);
+    }
+
+    public static void removeDuplicates(int[] a) {
+        Set<Integer> unique = new HashSet<>();
+        for (int i = 0; i < a.length; i++) {
+            unique.add(a[i]);
+        }
+        for (int n : unique) {
+            System.out.println(n);
+        }
     }
 }

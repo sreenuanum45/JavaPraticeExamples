@@ -15,7 +15,7 @@ public class ArrayOperation {
                 Second=a[i];
             }
         }
-        System.out.println(Second);
+       // System.out.println(Second);
         //find min and max in array
         int max=Arrays.stream(a).max().getAsInt();
         int min= Arrays.stream(a).min().getAsInt();

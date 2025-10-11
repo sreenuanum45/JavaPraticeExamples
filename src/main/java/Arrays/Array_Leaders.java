@@ -18,5 +18,6 @@ public class Array_Leaders {
             }
         }
         System.out.println(l.size());
+        System.out.println(l.stream().toList());
     }
 }

@@ -21,6 +21,7 @@ public class Array_Add_One {
         else {
             System.out.println(Arrays.toString(arr));
         }
+
         System.out.println(Arrays.toString(newArr));
     }
 }

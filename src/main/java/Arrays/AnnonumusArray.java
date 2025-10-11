@@ -10,7 +10,7 @@ public class AnnonumusArray {
         }
         System.out.println("Total Sum:"+sum(new int[]{10,20,30}));
         int[] x = {10,20,30,40};
-        char c ='c';
+        char c ='Z';
         int y=c;
 String s="Sreenu";
 System.out.println(s.length()+10l);
