@@ -13,7 +13,7 @@ public class Sort_LinkedList {
             for (int j = 0; j < LL.size() - 1 - i; j++) {
                 if ((int) LL.get(j) > (int) LL.get(j + 1)) {
                     int temp = (int) LL.get(j);
-                    LL.set(j, (int) LL.get(j + 1));
+                    LL.set(j, LL.get(j + 1));
                     LL.set(j + 1, temp);
 
                 }

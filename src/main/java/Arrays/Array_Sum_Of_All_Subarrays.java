@@ -11,6 +11,7 @@ public class Array_Sum_Of_All_Subarrays {
         }
         System.out.println("result: " + result);
 
+
     /*        for (int i = 0; i < prices.length; i++) {
             int temp = 0;  // to store sum of subarrays starting from i
             for (int j = i; j < prices.length; j++) {

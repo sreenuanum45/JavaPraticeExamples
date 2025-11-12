@@ -6,7 +6,6 @@ import java.util.regex.Pattern;
 
 public class WordBreak {
     public static void main(String[] args) {
-
             HashSet<String> dict = new HashSet<String>();
             dict.add("go");
             dict.add("goal");
