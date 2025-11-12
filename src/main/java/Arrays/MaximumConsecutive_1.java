@@ -6,7 +6,7 @@ public class MaximumConsecutive_1 {
 
         int maxcount = 1;
         int count = 1;
-        int element = arr[0];
+
         int maxElement = arr[0];
 
         for (int i = 1; i < arr.length; i++) {

@@ -9,7 +9,7 @@ public class MaximumConsecutive {
         int element = 0;
         for (int i = 1; i < arr.length; i++) {
             if (arr[i] == arr[i - 1]) {
-                element = arr[i];
+              //  element = arr[i];
                 count++;
             } else {
                 element = arr[i - 1];
@@ -17,6 +17,6 @@ public class MaximumConsecutive {
                 count = 1;
             }
         }
-        System.out.println("maximum element count:  " + element + "repeated  :" + maxcount);
+        System.out.println("maximum element count:  " + element+":" + "repeated  :" + maxcount);
     }
 }

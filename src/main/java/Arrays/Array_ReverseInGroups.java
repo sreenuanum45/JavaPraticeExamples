@@ -19,7 +19,7 @@ public class Array_ReverseInGroups {
             }
         }
         System.out.println(Arrays.toString(arr));
-        for(int i=0;i<n;i+=k){
+        /*for(int i=0;i<n;i+=k){
             int left=i;
             int right=Math.min(i+k-1,n-1);
             while (left<right){
@@ -30,7 +30,7 @@ public class Array_ReverseInGroups {
                 right--;
             }
         }
-        System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr));*/
 
     }
 }

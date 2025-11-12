@@ -10,7 +10,6 @@ public class ArrrayNonNegativeFirst {
         for (int i = 0; i < end; i++) {
             if (nums[i] > 0) {
                 output[i] = nums[i];
-
             }
         }
         for (int i = 0; i < end; i++) {

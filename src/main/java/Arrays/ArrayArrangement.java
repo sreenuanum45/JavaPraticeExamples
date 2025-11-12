@@ -1,5 +1,7 @@
 package Arrays;
 
+import java.util.Arrays;
+
 public class ArrayArrangement {
     public static void main(String[] args) {
         int[] arr = {6, 8, 7, 0, 5, 0, 3, 0};
@@ -13,9 +15,7 @@ public class ArrayArrangement {
         while (index>=0){
             result[index--] =0;
         }
-        for(int a:result){
-            System.out.println(a);
-        }
+        System.out.println(Arrays.toString(result));
 
     }
 }
